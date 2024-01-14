@@ -1,0 +1,21 @@
+20231104T15:35:02Z LAPTOP-U2F4F6E5 LOKI: Notice: MODULE: Init MESSAGE: Starting Loki Scan VERSION: 0.51.0 SYSTEM: LAPTOP-U2F4F6E5 TIME: 20231104T15:35:02Z PLATFORM: 10 10.0.19045 SP0 Multiprocessor Free PROC: Intel64 Family 6 Model 165 Stepping 2, GenuineIntel ARCH: 64bit WindowsPE
+20231104T15:35:02Z LAPTOP-U2F4F6E5 LOKI: Notice: MODULE: PESieve MESSAGE: PE-Sieve successfully initialized BINARY: F:\yarachay\loki\tools\pe-sieve64.exe SOURCE: https://github.com/hasherezade/pe-sieve
+20231104T15:35:02Z LAPTOP-U2F4F6E5 LOKI: Info: MODULE: Init MESSAGE: File Name Characteristics initialized with 3657 regex patterns
+20231104T15:35:02Z LAPTOP-U2F4F6E5 LOKI: Info: MODULE: Init MESSAGE: C2 server indicators initialized with 1745 elements
+20231104T15:35:03Z LAPTOP-U2F4F6E5 LOKI: Info: MODULE: Init MESSAGE: Malicious MD5 Hashes initialized with 19333 hashes
+20231104T15:35:03Z LAPTOP-U2F4F6E5 LOKI: Info: MODULE: Init MESSAGE: Malicious SHA1 Hashes initialized with 7785 hashes
+20231104T15:35:03Z LAPTOP-U2F4F6E5 LOKI: Info: MODULE: Init MESSAGE: Malicious SHA256 Hashes initialized with 23590 hashes
+20231104T15:35:03Z LAPTOP-U2F4F6E5 LOKI: Info: MODULE: Init MESSAGE: False Positive Hashes initialized with 0 hashes
+20231104T15:35:03Z LAPTOP-U2F4F6E5 LOKI: Info: MODULE: Init MESSAGE: Processing YARA rules folder F:\yarachay\loki\signature-base\yara
+20231104T15:35:13Z LAPTOP-U2F4F6E5 LOKI: Info: MODULE: Init MESSAGE: Initializing all YARA rules at once (composed string of all rule files)
+20231104T15:35:14Z LAPTOP-U2F4F6E5 LOKI: Info: MODULE: Init MESSAGE: Initialized 931 Yara rules
+20231104T15:35:14Z LAPTOP-U2F4F6E5 LOKI: Notice: MODULE: Init MESSAGE: Program should be run 'as Administrator' to ensure all access rights to process memory and file objects.
+20231104T15:35:14Z LAPTOP-U2F4F6E5 LOKI: Info: MODULE: Init MESSAGE: Setting LOKI process with PID: 18908 to priority IDLE
+20231104T15:35:14Z LAPTOP-U2F4F6E5 LOKI: Notice: MODULE: Init MESSAGE: Skipping process memory check. User has no admin rights.
+20231104T15:35:14Z LAPTOP-U2F4F6E5 LOKI: Info: MODULE: FileScan MESSAGE: Scanning Path F:\yarachay\madoc ...  
+20231104T15:35:14Z LAPTOP-U2F4F6E5 LOKI: Alert: MODULE: FileScan MESSAGE: FILE: F:\yarachay\madoc\setup.exe SCORE: 145 TYPE: EXE SIZE: 7168 FIRST_BYTES: 4d5a90000300000004000000ffff0000b8000000 / <filter object at 0x0000016F8A0C3FD0> MD5: 82349cf6e1fe6e8bd446d6726d4e65bf SHA1: ee3bccee872d7db3a9a404e420b28b47b90a5c18 SHA256: b5d02d5b6654c55b2d6926e4a482199043de90cb408a52e4236dd6fe84bdb6d8 CREATED: Sat Nov  4 22:34:26 2023 MODIFIED: Sat Nov  4 22:34:26 2023 ACCESSED: Sat Nov  4 22:35:14 2023 REASON_1: Yara Rule MATCH: CobaltStrike_Resources_Reverse64_Bin_v2_5_through_v4_x SUBSCORE: 70 DESCRIPTION: Cobalt Strike's resources/reverse64.bin signature for versions v2.5 to v4.x REF: https://cloud.google.com/blog/products/identity-security/making-cobalt-strike-harder-for-threat-actors-to-abuse AUTHOR: gssincla@google.com MATCHES: $apiLocator: 'H1\xc0\xacA\xc1\xc9A\xc18\xe0u\xf1LL$E9\xd1u\xd8XD\x8b@$I\xd0fA\x8bHD\x8b@I\xd0A\x8b\x88H', $calls: 'H\x89\xc1A\xba\xea\xdf\xe0\xff\xd5H\x89\xc7jAXL\x89\xe2H\x89\xf9A\xba\x99\xa5ta\xff\xd5'REASON_2: Yara Rule MATCH: MAL_Malware_Imphash_Mar23_1 SUBSCORE: 75 DESCRIPTION: Detects malware by known bad imphash or rich_pe_header_hash REF: https://yaraify.abuse.ch/statistics/ AUTHOR: Arnim Rupp
+20231104T15:35:14Z LAPTOP-U2F4F6E5 LOKI: Notice: MODULE: Results MESSAGE: Results: 1 alerts, 0 warnings, 4 notices
+20231104T15:35:14Z LAPTOP-U2F4F6E5 LOKI: Result: MODULE: Results MESSAGE: Indicators detected!
+20231104T15:35:14Z LAPTOP-U2F4F6E5 LOKI: Result: MODULE: Results MESSAGE: Loki recommends checking the elements on virustotal.com or Google and triage with a professional tool like THOR https://nextron-systems.com/thor in corporate networks.
+20231104T15:35:14Z LAPTOP-U2F4F6E5 LOKI: Info: MODULE: Results MESSAGE: Please report false positives via https://github.com/Neo23x0/signature-base
+20231104T15:35:14Z LAPTOP-U2F4F6E5 LOKI: Notice: MODULE: Results MESSAGE: Finished LOKI Scan SYSTEM: LAPTOP-U2F4F6E5 TIME: 20231104T15:35:14Z

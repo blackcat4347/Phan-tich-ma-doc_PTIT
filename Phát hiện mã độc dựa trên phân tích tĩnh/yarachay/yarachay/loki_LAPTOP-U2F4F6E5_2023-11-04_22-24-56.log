@@ -1,0 +1,21 @@
+20231104T15:24:56Z LAPTOP-U2F4F6E5 LOKI: Notice: MODULE: Init MESSAGE: Starting Loki Scan VERSION: 0.51.0 SYSTEM: LAPTOP-U2F4F6E5 TIME: 20231104T15:24:56Z PLATFORM: 10 10.0.19045 SP0 Multiprocessor Free PROC: Intel64 Family 6 Model 165 Stepping 2, GenuineIntel ARCH: 64bit WindowsPE
+20231104T15:24:56Z LAPTOP-U2F4F6E5 LOKI: Notice: MODULE: PESieve MESSAGE: PE-Sieve successfully initialized BINARY: F:\yarachay\loki\tools\pe-sieve64.exe SOURCE: https://github.com/hasherezade/pe-sieve
+20231104T15:24:57Z LAPTOP-U2F4F6E5 LOKI: Info: MODULE: Init MESSAGE: File Name Characteristics initialized with 3657 regex patterns
+20231104T15:24:57Z LAPTOP-U2F4F6E5 LOKI: Info: MODULE: Init MESSAGE: C2 server indicators initialized with 1745 elements
+20231104T15:24:57Z LAPTOP-U2F4F6E5 LOKI: Info: MODULE: Init MESSAGE: Malicious MD5 Hashes initialized with 19333 hashes
+20231104T15:24:57Z LAPTOP-U2F4F6E5 LOKI: Info: MODULE: Init MESSAGE: Malicious SHA1 Hashes initialized with 7785 hashes
+20231104T15:24:57Z LAPTOP-U2F4F6E5 LOKI: Info: MODULE: Init MESSAGE: Malicious SHA256 Hashes initialized with 23590 hashes
+20231104T15:24:57Z LAPTOP-U2F4F6E5 LOKI: Info: MODULE: Init MESSAGE: False Positive Hashes initialized with 0 hashes
+20231104T15:24:57Z LAPTOP-U2F4F6E5 LOKI: Info: MODULE: Init MESSAGE: Processing YARA rules folder F:\yarachay\loki\signature-base\yara
+20231104T15:25:06Z LAPTOP-U2F4F6E5 LOKI: Info: MODULE: Init MESSAGE: Initializing all YARA rules at once (composed string of all rule files)
+20231104T15:25:07Z LAPTOP-U2F4F6E5 LOKI: Info: MODULE: Init MESSAGE: Initialized 931 Yara rules
+20231104T15:25:07Z LAPTOP-U2F4F6E5 LOKI: Notice: MODULE: Init MESSAGE: Program should be run 'as Administrator' to ensure all access rights to process memory and file objects.
+20231104T15:25:07Z LAPTOP-U2F4F6E5 LOKI: Info: MODULE: Init MESSAGE: Setting LOKI process with PID: 3688 to priority IDLE
+20231104T15:25:07Z LAPTOP-U2F4F6E5 LOKI: Notice: MODULE: Init MESSAGE: Skipping process memory check. User has no admin rights.
+20231104T15:25:07Z LAPTOP-U2F4F6E5 LOKI: Info: MODULE: FileScan MESSAGE: Scanning Path F:\yarachay\madoc ...  
+20231104T15:25:07Z LAPTOP-U2F4F6E5 LOKI: Warning: MODULE: FileScan MESSAGE: FILE: F:\yarachay\madoc\meterpreter.exe SCORE: 70 TYPE: EXE SIZE: 73802 FIRST_BYTES: 4d5a90000300000004000000ffff0000b8000000 / <filter object at 0x000001DEA6D43FD0> MD5: 7e5784967dfaf79bd2c4da4bb443bee7 SHA1: c9a6f9dc902e3e444391f48bfd7ae45bee657942 SHA256: 230be3310e76d304408bceb1135e6ccf7a69092f03c75b4cc987d9e7449af028 CREATED: Sat Nov  4 22:24:20 2023 MODIFIED: Sat Nov  4 22:24:20 2023 ACCESSED: Sat Nov  4 22:25:07 2023 REASON_1: Yara Rule MATCH: SUSP_Imphash_Mar23_2 SUBSCORE: 70 DESCRIPTION: Detects imphash often found in malware samples (Zero hits with with search for 'imphash:x p:0' on Virustotal) REF: Internal Research AUTHOR: Arnim Rupp (https://github.com/ruppde)
+20231104T15:25:07Z LAPTOP-U2F4F6E5 LOKI: Notice: MODULE: Results MESSAGE: Results: 0 alerts, 1 warnings, 4 notices
+20231104T15:25:07Z LAPTOP-U2F4F6E5 LOKI: Result: MODULE: Results MESSAGE: Suspicious objects detected!
+20231104T15:25:07Z LAPTOP-U2F4F6E5 LOKI: Result: MODULE: Results MESSAGE: Loki recommends a deeper analysis of the suspicious objects.
+20231104T15:25:07Z LAPTOP-U2F4F6E5 LOKI: Info: MODULE: Results MESSAGE: Please report false positives via https://github.com/Neo23x0/signature-base
+20231104T15:25:07Z LAPTOP-U2F4F6E5 LOKI: Notice: MODULE: Results MESSAGE: Finished LOKI Scan SYSTEM: LAPTOP-U2F4F6E5 TIME: 20231104T15:25:07Z

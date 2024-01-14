@@ -1,0 +1,19 @@
+20231104T13:24:59Z LAPTOP-FOMKPR8B LOKI: Notice: MODULE: Init MESSAGE: Starting Loki Scan VERSION: 0.51.0 SYSTEM: LAPTOP-FOMKPR8B TIME: 20231104T13:24:59Z PLATFORM: 10 10.0.22621 SP0 Multiprocessor Free PROC: Intel64 Family 6 Model 141 Stepping 1, GenuineIntel ARCH: 64bit WindowsPE
+20231104T13:24:59Z LAPTOP-FOMKPR8B LOKI: Notice: MODULE: PESieve MESSAGE: PE-Sieve successfully initialized BINARY: D:\DEMO\yarachay\yarachay\loki\tools\pe-sieve64.exe SOURCE: https://github.com/hasherezade/pe-sieve
+20231104T13:25:00Z LAPTOP-FOMKPR8B LOKI: Info: MODULE: Init MESSAGE: File Name Characteristics initialized with 3657 regex patterns
+20231104T13:25:00Z LAPTOP-FOMKPR8B LOKI: Info: MODULE: Init MESSAGE: C2 server indicators initialized with 1745 elements
+20231104T13:25:00Z LAPTOP-FOMKPR8B LOKI: Info: MODULE: Init MESSAGE: Malicious MD5 Hashes initialized with 19333 hashes
+20231104T13:25:00Z LAPTOP-FOMKPR8B LOKI: Info: MODULE: Init MESSAGE: Malicious SHA1 Hashes initialized with 7785 hashes
+20231104T13:25:00Z LAPTOP-FOMKPR8B LOKI: Info: MODULE: Init MESSAGE: Malicious SHA256 Hashes initialized with 23590 hashes
+20231104T13:25:00Z LAPTOP-FOMKPR8B LOKI: Info: MODULE: Init MESSAGE: False Positive Hashes initialized with 0 hashes
+20231104T13:25:00Z LAPTOP-FOMKPR8B LOKI: Info: MODULE: Init MESSAGE: Processing YARA rules folder D:\DEMO\yarachay\yarachay\loki\signature-base\yara
+20231104T13:25:03Z LAPTOP-FOMKPR8B LOKI: Info: MODULE: Init MESSAGE: Initializing all YARA rules at once (composed string of all rule files)
+20231104T13:25:04Z LAPTOP-FOMKPR8B LOKI: Info: MODULE: Init MESSAGE: Initialized 931 Yara rules
+20231104T13:25:04Z LAPTOP-FOMKPR8B LOKI: Notice: MODULE: Init MESSAGE: Program should be run 'as Administrator' to ensure all access rights to process memory and file objects.
+20231104T13:25:04Z LAPTOP-FOMKPR8B LOKI: Info: MODULE: Init MESSAGE: Setting LOKI process with PID: 5444 to priority IDLE
+20231104T13:25:04Z LAPTOP-FOMKPR8B LOKI: Notice: MODULE: Init MESSAGE: Skipping process memory check. User has no admin rights.
+20231104T13:25:04Z LAPTOP-FOMKPR8B LOKI: Info: MODULE: FileScan MESSAGE: Scanning Path D:\DEMO\yarachay\yarachay\madoc ...  
+20231104T13:25:04Z LAPTOP-FOMKPR8B LOKI: Notice: MODULE: Results MESSAGE: Results: 0 alerts, 0 warnings, 4 notices
+20231104T13:25:04Z LAPTOP-FOMKPR8B LOKI: Result: MODULE: Results MESSAGE: SYSTEM SEEMS TO BE CLEAN.
+20231104T13:25:04Z LAPTOP-FOMKPR8B LOKI: Info: MODULE: Results MESSAGE: Please report false positives via https://github.com/Neo23x0/signature-base
+20231104T13:25:04Z LAPTOP-FOMKPR8B LOKI: Notice: MODULE: Results MESSAGE: Finished LOKI Scan SYSTEM: LAPTOP-FOMKPR8B TIME: 20231104T13:25:04Z
